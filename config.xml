@@ -91,4 +91,10 @@
         
     <preference name="permissions" value="none"/>
 
-</widget>
+	
+	<access origin="*" /> - a wildcard access tag allows access to all external resource.
+			
+	<plugin name="org.apache.cordova.facebook.Connect"
+				  value="FacebookConnectPlugin" />
+			  
+			  
